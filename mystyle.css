@@ -11,7 +11,9 @@
     border: #044516 3pt solid;
     margin-left: 50px;
     margin-right: 50px;
+    padding-left: 50px;
     background-color:#f5f5dc;
+    border-radius: 15px;
 }
 
 .head{
@@ -61,4 +63,15 @@
 .tab2 {
     display: inline-block;
     margin-left: 30px;
+}
+
+.Submit{
+    font-family: Fredoka ;
+    font-weight: 450;
+    font-size: 20pt;
+    text-align: center;
+    border: #044516 solid 5px;
+    border-radius: 15px;
+    color: #044516;
+    background-color: #8dc58e;
 }
