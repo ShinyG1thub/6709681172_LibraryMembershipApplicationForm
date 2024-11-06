@@ -20,15 +20,13 @@
 
             <input type="radio" id="male" name="gender" value="male">
             <label for="male" class="En2">Male</label><br>
-
             <input type="radio" id="female" name="gender" value="female">
             <label for="female" class="En2">Female</label><br>
-
             <input type="radio" id="lgbtq" name="gender" value="lgbtq">
             <label for="lgbtq" class="En2">LGBTQIA+</label><br><br>
 
             <label for="STD" class="En1">Student ID * :</label>
-            <input type="text" id="STD" name="STD" required maxlength="10"><br><br>
+            <input type="text" id="STD" name="STD" class="En2" required maxlength="10"><br><br>
 
             <label for="FCT" class="Th1">คณะที่ศึกษา : </label>
             <select id="FCT" name="FCT" class="Th2">
@@ -58,7 +56,31 @@
                 <option value="fph">สาธารณสุขศาสตร์</option>
                 <option value="pharm">เภสัชศาสตร์</option>
                 <option value="cicm">วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์</option>
-              </select>
+              </select><br><br>
+
+            <label for="email" class="En1">E-mail :</label>
+            <input type="email" id="email" name="email" class="En2" required><br><br>
+
+            <label for="birthday" class="En1">Birthday : </label>
+            <input type="date" id="birthday" name="birthday" class="En2" required><br><br>
+
+            <label for="book" class="En1">Book Genres :</label><br><br>
+            <div class="En2">
+                <input type="checkbox" id="book1" name="book1" value="Fiction">
+                <label for="book1"> Fiction<span class="tab"></span></label>
+                <input type="checkbox" id="book2" name="book2" value="Mystery">
+                <label for="book2">Mystery<span class="tab2"></span></label>
+                <input type="checkbox" id="book3" name="book3" value="Narrative">
+                <label for="book3">Narrative<span class="tab2"></span></label><br>
+                <input type="checkbox" id="book4" name="book4" value="Novel">
+                <label for="book4"> Novel <span class="tab"></span></label>
+                <input type="checkbox" id="book5" name="book5" value="Thriller">
+                <label for="book5">Thriller<span class="tab"></span></label>
+                <input type="checkbox" id="book6" name="book6" value="Others">
+                <label for="book6">Others<span class="tab"></span></label>
+            </div>
+
+
             
     </form>
 </body>
