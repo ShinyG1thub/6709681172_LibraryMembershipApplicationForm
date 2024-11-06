@@ -1,17 +1,55 @@
 .body{
-    background-color: #8dc58e;
+    background-color: #fff;
 }
 
 .form{
-    padding-top: 50px;
+    padding-top: 30px;
+    
 }
+
+.box{
+    border: #044516 3pt solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color:#f5f5dc;
+}
+
 .head{
     text-align: center;
     font-size: 20pt;
+    padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: Fredoka;
     font-weight: 700;
     color:#044516;
+    border: #044516 3pt solid;
+    border-radius: 15px;
+    background-color: #8dc58e;
 
+}
+
+.Th1{
+    font-family: Itim ;
+    font-size: 15pt;
+}
+
+.Th2{
+    font-family: Itim ;
+    font-size: 12pt;
+}
+
+.En1{
+    font-family: Fredoka ;
+    font-weight: 450;
+    font-size: 15pt;
+}
+
+.En2{
+    font-family: Fredoka ;
+    font-size: 12pt;
+    font-weight: 450;
+    
 }
 

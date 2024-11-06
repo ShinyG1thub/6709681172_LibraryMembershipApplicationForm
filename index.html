@@ -6,18 +6,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 </head>
 <body class="body">
-    <form class="form">
+    <form method="post" class="form">
         <fieldset class="box">
-            <legend class="head">Library Membership Application Form</legend>
-            <label for="nameTH" class="Th">ชื่อ-นามสกุล :</label>
-            <input type="text" id="nameTH" name="nameTH" maxlength="40"><br><br>
-            <label for="nameEN" class="E">Name-Lastname :</label>
-            <input type="text" id="nameEN" name="nameEN" maxlength="40"><br><br>
-            <label for="gender" class="En">Gender</label><br>
+            <legend class="head">Library Membership Application Form</legend><br>
+
+            <label for="nameTH" class="Th1">ชื่อ-นามสกุล :</label>
+            <input type="text" id="nameTH" name="nameTH" class="Th2" maxlength="40"><br><br>
+
+            <label for="nameEN" class="En1">Name-Lastname :</label>
+            <input type="text" id="nameEN" name="nameEN" class="En2" maxlength="40"><br><br>
+
+            <label for="gender" class="En1">Gender</label><br><br>
+
             <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label><br>
+            <label for="male" class="En2">Male</label><br>
+
             <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
+            <label for="female" class="En2">Female</label><br>
+
+            <input type="radio" id="lgbtq" name="gender" value="lgbtq">
+            <label for="lgbtq" class="En2">LGBTQIA+</label><br><br>
+
+            <label for="STD" class="En1">Student ID :</label>
+            <input type="text" id="STD" name="STD" maxlength="10"><br><br>
             
     </form>
 </body>
