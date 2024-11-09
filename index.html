@@ -58,10 +58,10 @@
                 <option value="cicm">วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์</option>
               </select><br><br>
 
-            <label for="email" class="En1">E-mail :</label>
+            <label for="email" class="En1">E-mail *:</label>
             <input type="email" id="email" name="email" class="En2" required><br><br>
 
-            <label for="birthday" class="En1">Birthday : </label>
+            <label for="birthday" class="En1">Birthday *: </label>
             <input type="date" id="birthday" name="birthday" class="En2" required><br><br>
 
             <label for="book" class="En1">Book Genres :</label><br><br>
@@ -80,12 +80,30 @@
                 <label for="book6">Others<span class="tab"></span></label>
             </div><br><br>
 
+            <label for="favbook" class="En1">Your Favourite book :</label>
+            <input type="text" id="favbook" name="favbook" class="En2"maxlength="40"><br><br>
+
+
+
             <label for="data" class="Th1"> ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่*</label><br><br>
 
             <input type="radio" id="yes" name="data" value="yes">
             <label for="yes" class="En2">Yes</label><br>
             <input type="radio" id="no" name="data" value="no">
             <label for="no" class="En2">No</label><br><br>
+
+            <label for="rate" class="En1">Rate Our Library /5</label><br><br>
+
+            <input type="radio" id="1p" name="rate" value="1p">
+            <label for="1p" class="En2">⭐<span class="tab"></span></label>
+            <input type="radio" id="2p" name="rate" value="2p">
+            <label for="2p" class="En2">⭐⭐<span class="tab"></span></label>
+            <input type="radio" id="3p" name="rate" value="3p">
+            <label for="3p" class="En2">⭐⭐⭐<span class="tab"></span></label>
+            <input type="radio" id="4p" name="rate" value="4p">
+            <label for="4p" class="En2">⭐⭐⭐⭐<span class="tab"></span></label>
+            <input type="radio" id="5p" name="rate" value="5p">
+            <label for="5p" class="En2">⭐⭐⭐⭐⭐<span class="tab"></span></label><br><br><br>
 
             <input type="submit" value="Submit" class="Submit">
             

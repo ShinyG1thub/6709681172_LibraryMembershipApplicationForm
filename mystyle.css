@@ -4,7 +4,7 @@
 
 .form{
     padding-top: 30px;
-    
+    padding-bottom: 50px;
 }
 
 .box{
@@ -75,4 +75,5 @@
     border-radius: 15px;
     color: #044516;
     background-color: #8dc58e;
+    margin-bottom: 20px; ;
 }
