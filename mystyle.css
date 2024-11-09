@@ -1,5 +1,5 @@
 .body{
-    background-color: #fff;
+    background-image: url('resources/bglib.jpg');
 }
 
 .form{
@@ -12,8 +12,9 @@
     margin-left: 50px;
     margin-right: 50px;
     padding-left: 50px;
-    background-color:#f5f5dc;
+    background-color:#bcdcb7;
     border-radius: 15px;
+    opacity: 80%;
 }
 
 .head{
